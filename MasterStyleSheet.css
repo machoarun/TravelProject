@@ -1,0 +1,342 @@
+﻿body
+{
+	background-image: url(LocalResources/backBlueGradient.jpg);
+	background-repeat: repeat-x;
+}
+.TopMenu
+{
+	border-top-style: outset;
+	border-color: #000099;
+	text-align: center;
+}
+
+.masterTable
+{
+	border-style: ridge ridge none ridge;
+	width: 1000px;
+	/*height: 900px;*/
+	border-color: #3399FF;
+	border-width: medium;
+}
+  .p
+{
+	width: 1000px;
+	text-align: left;
+	background-image: url( 'LocalResources/Gradient Sparsh.bmp' );
+	background-repeat: repeat-x;
+	height: 87px;
+}
+
+     .style8445
+{
+	background-image: url(leftFooter.jpg);
+	background-repeat: no-repeat;
+	width: 116px;
+	border-collapse: collapse;
+}
+        .SitePath
+        {
+            height: 15px;
+            /*background-color :Blue;*/
+        }
+.LogoTop
+{
+	border-style: none;
+    width: 240px;
+    height : 125px;
+	vertical-align :top;
+}
+.LogoTop A:Visited
+{
+	border-style: none;
+	text-decoration : none;
+}
+.LogoTop A:active
+{
+	border-style: none;
+	text-decoration: none;
+}
+.Welcome
+{
+	font-size: 100px;
+	color: #99CCFF;
+	vertical-align: middle;
+	text-align: center;
+	letter-spacing: 10px;
+	font-family: Castellar;
+}
+.header
+{
+	vertical-align :bottom;
+    border-color : Black;
+    border-width : thin;
+    border-style  :solid;
+}
+      
+.FooterTable
+{
+	width: 956px;
+    height: 88px;
+}
+      
+.Footercol1
+{
+	width: 567px;
+}
+.CircleImage
+{
+	width: 164px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+}
+      
+.stePath
+{
+	height: 26px;
+	border-bottom-style: ridge;
+	border-bottom-width: medium;
+	border-bottom-color: #3399FF;
+	border-top-style: ridge;
+	border-top-color: #3399FF;
+	border-top-width: medium;
+}
+.FooterDeveloped
+{
+	font-size: small;
+}
+.LogoText
+{
+	height: 122px;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'Lucida Calligraphy';
+	color: #016FDC;
+	border-left-style: outset;
+	border-left-color: #B3D9FF;
+}
+.LogoText A:Visited
+{
+	color: #016FDC;
+	text-decoration : none;
+}
+.LogoText A:active
+{
+	color: #016FDC;
+	text-decoration : none;	
+}
+
+.LogoTextM
+{
+	font-size: 30px;
+	font-weight: normal;
+	font-family: 'Lucida Calligraphy';
+	color: #9F342F;
+	display: inline;
+	position: static;
+}
+
+.FooterMenu
+{
+	text-decoration: none;
+	color: #000000;
+}
+.ContentPane
+{
+	height: 500px;
+	background-image: url('LocalResources/backBlueGradient.jpg');
+}
+.FooterMenu
+{
+	text-decoration: none;
+	color: #5E9EFF;
+	font-weight: bold;
+}
+.FooterMenu A:Link
+{
+	color: #5E9EFF;
+	text-decoration : none;
+}
+.FooterMenu A:visited
+{
+	color: #5E9EFF;
+	text-decoration : none;
+}
+.FooterMenu A:hover
+{
+	color: #000066;
+	text-decoration: none;
+}
+
+.banner 
+{
+    font-size : xx-large;
+    font-family :Times New Roman;
+    text-decoration : none;
+    display : 	block;
+    MARGIN: 0px auto;
+    WIDTH:500px;
+    border-top-color : Green ;
+    line-height: 50px       
+                
+}
+
+.banner li
+{
+	float: left;
+	margin: 0px 0px;
+	list-style-type: none;
+	color: #0060BF;
+} 
+.banner A:link
+{
+	text-decoration : none;
+	color: #3399FF;
+}
+.banner A:Visited
+{
+	text-decoration : none;
+	color: #3399FF;
+}
+
+
+.hoverword A:hover
+{
+	color: #D5E9FF;
+	font-family: "Times New Roman";
+	border-top-style: solid;
+	border-top-color: Black;
+	border-top-width: thick;
+	background-color: #0099CC;
+}
+.hoverword A:Visited
+{
+    text-decoration : none
+}
+.Datatable
+{
+	border-style: solid;
+	border-width: thin;
+	width: 80%;
+	text-align: left;
+}
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+
+/******************************      Search     ********************************/
+
+.ReviewDetailCaption
+{
+	border-style: solid;
+	border-width: thin;
+	background-color: #6FB7FF;
+	font-weight: 100;
+	font-size: x-large;
+	text-align: left;
+}
+.ReviewDetailTitleColumns
+{
+	font-weight: bold;
+	font-size: large;
+	text-transform: capitalize;
+}
+.ReviewDetailColumnDetails
+{
+	height: 53px;
+}
+.ReviewDetailTotalCalculation
+{
+	border-style: dashed none dashed none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.emptycellStyle
+{
+    height: 15px;
+}
+
+.LabelStyle
+{
+    height: 23px;
+}
+    .CheckCol1111
+{
+	height: 45px;
+	width: 190px;
+	float: left;
+	display: table-cell;
+	
+}        
+.VehicleSearchTable
+{
+    width: 818px;
+}
+            
+.VehSearchSelectCol1
+{
+	height: 45px;
+	width: 230px;
+}
+.VehSearchSelectCol2
+{
+    height: 45px;
+            
+}
+
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+
+
+     
+        .CheckCol1
+        {
+        	height: 45px;
+            width: 180px;
+            
+        }
+        .VehicleDetailsCol2Width
+        {
+            width: 120px;
+        }
+        
+         .VehicleDetailsCol1
+        {
+            font-weight: bold;
+            font-size: large;
+            text-transform: capitalize;
+            width: 180px;
+        }
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/***********	Vehicle Payment	*********/
+      .style3VehiclePayment
+        {
+        	height: 85px;
+        }
+        .style4VehiclePayment
+        {
+            height: 36px;
+        }
+
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+
+/********  FLIGHT ******/
+
+.partition
+{
+	background-color: #99CCFF;
+}
+    .CheckCol1111
+{
+	height: 45px;
+	width: 190px;
+	float: left;
+	display: table-cell;
+	
+}  

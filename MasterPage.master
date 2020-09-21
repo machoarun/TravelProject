@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    
+    
+    <!--<link rel="stylesheet" href="VehicleStyleSheet.css" type="text/css" media="all" />->
+    <link rel="stylesheet" href="MasterStyleSheet.css" type="text/css" media="all" />
+    
+    <style type="text/css">
+     
+        .style8446
+        {
+            border-top-style: outset;
+            border-color: #000099;
+            text-align: center;
+        }
+     
+        .style8447
+        {
+            width: 100%;
+        }
+     
+        .style8448
+        {
+            width: 726px;
+        }
+     
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <table align ="center" class="masterTable">
+        <tr class ="header">
+            <td class="LogoTop" rowspan="2">
+            
+                <a href ="Welcome.aspx"><img alt="" src="LocalResources/vacation.jpg" 
+                style="width: 281px; height: 176px" align ="top" /></a>
+            
+                
+                </td>
+            <td class="LogoText"><a href ="Welcome.aspx">
+              <span style ="font-weight :lighter" >Make</span><span class ="LogoTextM">My</span><span style ="font-weight :lighter;">Trip</span>
+              </a> 
+              </td>
+        </tr>
+        <tr class ="header">
+            <td class="style8446">
+                    <table>
+                   <ul class = "banner">
+                    <li  class ="hoverword"><a href = "Flight_Search.aspx">&nbsp;&nbsp;Flight&nbsp;&nbsp;</a></li>
+                    
+                    <li  class ="hoverword"><a href = "Search_Vehicle1.aspx">&nbsp;&nbsp;Vehicle&nbsp;&nbsp;</a></li>
+                    
+                    <li  class ="hoverword"><a href = "SearchHotel.aspx">&nbsp;&nbsp;Hotel&nbsp;&nbsp;</a></li>
+                    
+                    <li  class ="hoverword"><a href = "Search_Table.aspx">&nbsp;&nbsp;Travel&nbsp;&nbsp;</a></li>
+    
+                </ul>
+                </table>
+                </td>
+        </tr>
+        <tr>
+            <td class="stePath" colspan="2">
+                    
+        <table class="style8447">
+                        <tr>
+                            <td class="style8448">
+                                <b>SitePath :</b><asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath></td>
+                            <td>
+                                <span style ="text-align :right; position: static;">
+                                <b>Date : </b>
+                      <% Response.Write(DateTime.Today.ToShortDateString());%> </span></td>
+                        </tr>
+                    </table>
+                    
+            </td>
+        </tr>
+        <tr>
+            <td class="ContentPane" colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    
+                        <p>
+                        </p>
+                    
+                    
+                    </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+
+    
+    
+    <br />
+    <div align="center">
+  <p class =" p">
+                <img align ="left" src="LocalResources/leftFooter.jpg" 
+                    
+                    style="width: 19px; height: 89px;position :static " />
+          
+                <img  align ="right" src="LocalResources/rightfooterFinal.jpg" 
+                    style="width: 22px; height: 88px;position : static" />
+                    
+                  
+                   
+                                   
+                        <table class="FooterTable">
+                            <tr>
+                                <td class="Footercol1"><div class ="FooterMenu">
+                                   <a href ="#">Home </a> | <a href ="Flight_Search.aspx">Flight</a>
+                                    | <a href ="Search_Vehicle1.aspx">Vehicle</a> | <a href ="SearchHotel.aspx">Hotel</a> 
+                                    | <a href ="#">Travel</a></div> </td>
+                                <td class="CircleImage" rowspan="2">
+                    
+                  
+                
+                                    <img src="LocalResources/infylogofinal3.jpg" /></td>
+                                <td>
+               
+                                    <span class="FooterDeveloped">Developed By Group 12 SepLC108</span></td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    Best viewed with IE 5.0+ browser, 1280 x 1024 and above screen resolution </td>
+                                <td>
+                                    <img  align="bottom" align="right"  src="LocalResources/infosysLogo.jpg"
+                                    style="width: 96px; height: 37px;position : static " />   
+                                 </td>
+                            </tr>
+                </table>
+                    
+                  
+                
+                                                &nbsp;&nbsp;&nbsp;
+                </p>
+                
+                      
+    </div>
+    
+    </form>
+
+    </body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Welcome.aspx" title="Home"  description="">
+    <siteMapNode url="~/SearchHotel.aspx" title="Search Hotel"  description="To search for Hotel in desired city" />
+    <siteMapNode url="~/Search_Table.aspx" title="Search Travel Package"  description="To search for available Travel Packages" />
+    <siteMapNode url="~/Flight_Search.aspx" title ="Search Flight" description="To search for Flight from Source to Destination" />
+    <siteMapNode url="~/Search_Vehicle1.aspx" title="Search Vehicle" description="To Search for Vehicle to Travel" />
+  </siteMapNode>
+</siteMap>
